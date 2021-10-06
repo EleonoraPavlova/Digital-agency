@@ -4,20 +4,19 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
+
   .top-bar-item {
     margin-right: 100px;
     height: 100%;
     display: flex;
     align-items: center;
-    
+
     svg {
       margin-right: 6px;
     }
 
     a {
-      text-decoration: none;
-      color: #1A1A1A;
+      color: #1a1a1a;
     }
   }
 }

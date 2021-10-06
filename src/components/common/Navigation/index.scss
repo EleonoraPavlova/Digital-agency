@@ -22,7 +22,7 @@
         position: relative;
         &:before {
           position: absolute;
-          content: '';
+          content: "";
           width: 11px;
           height: 11px;
           background-color: #fff;
@@ -30,7 +30,6 @@
           left: -18px;
           top: 5px;
         }
-
       }
     }
 
@@ -38,7 +37,7 @@
       height: 41px;
       width: 132px;
       color: $base-color;
-      background-color: #fff;
+      background-color: $color-white;
       display: flex;
       justify-content: center;
       align-items: center;
