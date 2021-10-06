@@ -1,15 +1,17 @@
 @import "../../../variables.scss";
 
 .footer {
-  display: grid;
-  grid-template-columns: 35% 15% 25% 25%;
   color: $color-white;
   font-family: $fonts-regular;
   font-size: 16px;
   line-height: 24px;
-  padding: 66px 120px 29px 101px;
   background-color: $color-dark;
-  border-bottom: 1px solid $color-white;
+  &__upper-block {
+    display: grid;
+    grid-template-columns: 35% 15% 25% 25%;
+    padding: 66px 120px 29px 101px;
+    border-bottom: 1px solid $color-white;
+  }
   .logo-wrapper {
     margin-bottom: 20px;
   }
@@ -24,5 +26,10 @@
   }
   &__item {
     padding-bottom: 5px;
+  }
+  &__second-block {
+    display: flex;
+    justify-content: center;
+    padding: 29px 0;
   }
 }
