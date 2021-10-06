@@ -1,5 +1,5 @@
 import './index.scss';
 
 export default function FooterPiece() {
-    return <span className="piece">@Company.com </span>
+    return <span className="chunk-footer">@Company.com </span>
 }

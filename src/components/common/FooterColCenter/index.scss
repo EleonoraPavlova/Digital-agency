@@ -1,0 +1,12 @@
+@import "../../../variables.scss";
+.footer {
+    &__item {
+        padding-bottom: 5px;
+    }
+    &__title {
+        font-family: $font-medium;
+        font-size: 17px;
+        line-height: 26px;
+        padding-bottom: 15px;
+    }
+}

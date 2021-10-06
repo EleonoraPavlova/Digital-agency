@@ -1,7 +1,8 @@
 import './Footer.scss'
 import Logo from "../Logo";
 import Slogan from "../Slogan";
-import FooterPiece from '../FooterPiece';
+import ChunkFooter from '../ChunkFooter';
+import FooterColCenter from '../FooterColCenter';
 import { NavLink } from "react-router-dom";
 import { ReactComponent as FacebookIcon } from "../Icon/icons/facebook.svg";
 import { ReactComponent as InstaIcon } from "../Icon/icons/insta.svg";
@@ -22,17 +23,11 @@ export default function Footer() {
             <Slogan />
           </div>
           <div>
-            <FooterPiece />
+            <ChunkFooter />
           </div>
         </div>
-        <div className="footer__col-about">
-          <ul>
-            <li className="footer__title"><NavLink className="nav-link" to="/about">About us</NavLink></li>
-            <li className="footer__item">Company</li>
-            <li className="footer__item">Portfolio</li>
-            <li className="footer__item">Careers</li>
-            <li className="footer__title"><NavLink className="contact-us" to="/contact">Contact us</NavLink></li>
-          </ul>
+        <div>
+          <FooterColCenter />
         </div>
         <div className="footer__col-contact">
           <div className="footer__title"><NavLink className="contact-us" to="/contact">Contact us</NavLink></div>
