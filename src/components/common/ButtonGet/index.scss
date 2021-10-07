@@ -1,0 +1,12 @@
+@import "../../../variables.scss";
+
+.button-get {
+    background-color: $base-color;
+    color: $color-white;
+    border-radius: 40px;
+    width: 195px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

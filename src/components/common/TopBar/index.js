@@ -1,5 +1,4 @@
 import './index.scss';
-
 import Icon from '../Icon';
 import { Link } from "react-router-dom"
 
