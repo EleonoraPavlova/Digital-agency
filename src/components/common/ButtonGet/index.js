@@ -1,7 +1,7 @@
 import './index.scss';
 
 export default function ButtonGet(props) {
-    return <span className="button-get">
+    return <button className="button-get text-normal">
         Get more details
-    </span>;
+    </button>;
 }

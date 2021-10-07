@@ -1,13 +1,16 @@
 @import "../../../variables.scss";
 
 .banner {
-    display: grid;
-    grid-template-columns: 45% 55%;
     background-image: url("../../../images/bg-banner.svg");
     background-position: bottom;
     background-repeat: no-repeat;
-    padding: 135px;
+    padding: 0 0 135px 135px;
     background-size: 100% auto;
+    &__box {
+        display: grid;
+        grid-template-columns: 42% 58%;
+        margin-top: -115px;
+    }
     &__title {
         padding-bottom: 20px;
         font-family: $fons-title;
@@ -24,5 +27,8 @@
     }
     &__description {
         padding-bottom: 50px;
+    }
+    &__right {
+        padding-right: 115px;
     }
 }
