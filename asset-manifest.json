@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.26dac352.chunk.css",
-    "main.js": "/static/js/main.ace9362a.chunk.js",
-    "main.js.map": "/static/js/main.ace9362a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ffa116b3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ffa116b3.js.map",
-    "static/js/2.c48e4d2f.chunk.js": "/static/js/2.c48e4d2f.chunk.js",
-    "static/js/2.c48e4d2f.chunk.js.map": "/static/js/2.c48e4d2f.chunk.js.map",
-    "static/js/3.33e955b9.chunk.js": "/static/js/3.33e955b9.chunk.js",
-    "static/js/3.33e955b9.chunk.js.map": "/static/js/3.33e955b9.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.26dac352.chunk.css.map": "/static/css/main.26dac352.chunk.css.map",
-    "static/js/2.c48e4d2f.chunk.js.LICENSE.txt": "/static/js/2.c48e4d2f.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/static/media/bg-banner.22446374.svg",
-    "static/media/facebook.45d115f0.svg": "/static/media/facebook.45d115f0.svg",
-    "static/media/insta.9fd3ef8d.svg": "/static/media/insta.9fd3ef8d.svg",
-    "static/media/linkedin.5c9a8f72.svg": "/static/media/linkedin.5c9a8f72.svg",
-    "static/media/phone.5a27c104.svg": "/static/media/phone.5a27c104.svg",
-    "static/media/point.4b09a6c2.svg": "/static/media/point.4b09a6c2.svg",
-    "static/media/App.scss": "/static/media/poppins-v15-latin-regular.c14093ce.woff",
-    "static/media/twitter.377672fc.svg": "/static/media/twitter.377672fc.svg"
+    "main.css": "/EleonoraPavlovaDigital-agency/static/css/main.47dc6410.chunk.css",
+    "main.js": "/EleonoraPavlovaDigital-agency/static/js/main.4bc931c0.chunk.js",
+    "main.js.map": "/EleonoraPavlovaDigital-agency/static/js/main.4bc931c0.chunk.js.map",
+    "runtime-main.js": "/EleonoraPavlovaDigital-agency/static/js/runtime-main.dcaadfdc.js",
+    "runtime-main.js.map": "/EleonoraPavlovaDigital-agency/static/js/runtime-main.dcaadfdc.js.map",
+    "static/js/2.c48e4d2f.chunk.js": "/EleonoraPavlovaDigital-agency/static/js/2.c48e4d2f.chunk.js",
+    "static/js/2.c48e4d2f.chunk.js.map": "/EleonoraPavlovaDigital-agency/static/js/2.c48e4d2f.chunk.js.map",
+    "static/js/3.33e955b9.chunk.js": "/EleonoraPavlovaDigital-agency/static/js/3.33e955b9.chunk.js",
+    "static/js/3.33e955b9.chunk.js.map": "/EleonoraPavlovaDigital-agency/static/js/3.33e955b9.chunk.js.map",
+    "index.html": "/EleonoraPavlovaDigital-agency/index.html",
+    "static/css/main.47dc6410.chunk.css.map": "/EleonoraPavlovaDigital-agency/static/css/main.47dc6410.chunk.css.map",
+    "static/js/2.c48e4d2f.chunk.js.LICENSE.txt": "/EleonoraPavlovaDigital-agency/static/js/2.c48e4d2f.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/EleonoraPavlovaDigital-agency/static/media/bg-banner.22446374.svg",
+    "static/media/facebook.45d115f0.svg": "/EleonoraPavlovaDigital-agency/static/media/facebook.45d115f0.svg",
+    "static/media/insta.9fd3ef8d.svg": "/EleonoraPavlovaDigital-agency/static/media/insta.9fd3ef8d.svg",
+    "static/media/linkedin.5c9a8f72.svg": "/EleonoraPavlovaDigital-agency/static/media/linkedin.5c9a8f72.svg",
+    "static/media/phone.5a27c104.svg": "/EleonoraPavlovaDigital-agency/static/media/phone.5a27c104.svg",
+    "static/media/point.4b09a6c2.svg": "/EleonoraPavlovaDigital-agency/static/media/point.4b09a6c2.svg",
+    "static/media/App.scss": "/EleonoraPavlovaDigital-agency/static/media/poppins-v15-latin-regular.c14093ce.woff",
+    "static/media/twitter.377672fc.svg": "/EleonoraPavlovaDigital-agency/static/media/twitter.377672fc.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ffa116b3.js",
+    "static/js/runtime-main.dcaadfdc.js",
     "static/js/2.c48e4d2f.chunk.js",
-    "static/css/main.26dac352.chunk.css",
-    "static/js/main.ace9362a.chunk.js"
+    "static/css/main.47dc6410.chunk.css",
+    "static/js/main.4bc931c0.chunk.js"
   ]
 }
