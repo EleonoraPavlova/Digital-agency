@@ -1,10 +1,9 @@
 import './index.scss';
-
 import Icon from '../Icon';
 import { Link } from "react-router-dom"
 
 export default function TopBar() {
-  return <div className="top-bar">
+  return <header className="top-bar">
     <div className="top-bar-item">
       <Icon type='point' />
       <Link to="/contact">
@@ -17,5 +16,5 @@ export default function TopBar() {
         +94 000 00000
       </a>
     </div>
-  </div>;
+  </header>;
 }
