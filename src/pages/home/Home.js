@@ -4,9 +4,7 @@ import About from "../../components/home/About";
 
 export default function Home() {
   return <div>
-    <div>
-      <Banner />
-      <About />
-    </div>
+    <Banner />
+    <About />
   </div>
 }
