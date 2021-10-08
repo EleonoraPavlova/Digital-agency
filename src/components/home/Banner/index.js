@@ -4,7 +4,7 @@ import ButtonGet from "../../common/ButtonGet";
 export default function Banner() {
     return <div className="banner">
         <div className="banner__ribbon">
-            <img src={process.env.PUBLIC_URL + '/ribbon-banner.svg'} alt="ribbon-banner" />
+            <img src={process.env.PUBLIC_URL + '/images/ribbon-banner.svg'} alt="ribbon-banner" />
         </div>
         <div className="banner__box">
             <div className="banner__left">
@@ -22,7 +22,7 @@ export default function Banner() {
                 </div>
             </div>
             <div className="banner__right">
-                <img src={process.env.PUBLIC_URL + '/banner-img.svg'} alt="banner-img" />
+                <img src={process.env.PUBLIC_URL + '/images/banner-img.svg'} alt="banner-img" />
             </div>
         </div>
     </div>

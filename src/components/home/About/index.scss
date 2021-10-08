@@ -1,0 +1,43 @@
+@import "../../../variables.scss";
+
+.about {
+    margin-bottom: 165px;
+    &__wrapper-link {
+        padding-bottom: 15px;
+    }
+    &__link {
+        &:hover {
+            color: $base-color;
+        }
+    }
+    &__title {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        padding-bottom: 49px;
+        &-center {
+            text-align: center;
+            grid-column: 2 /3;
+        }
+    }
+    &__box {
+        &-title {
+            padding-bottom: 10px;
+        }
+        &-desc {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            padding-bottom: 46px;
+        }
+        &-picture {
+            display: grid;
+            grid-template-columns: 64% 25%;
+        }
+    }
+    &__dots {
+        width: 196px;
+        height: 154px;
+        margin-left: -87px;
+        margin-top: -67px;
+        z-index: -1;
+    }
+}

@@ -3,7 +3,7 @@ import Logo from "../Logo";
 import './index.scss';
 
 export default function Navigation() {
-  return <div className="navigation">
+  return <nav className="navigation">
     <div className="logo">
       <Logo />
     </div>
@@ -25,5 +25,5 @@ export default function Navigation() {
         <NavLink className="contact-us" to="/contact">Contact us</NavLink>
       </li>
     </ul>
-  </div>
+  </nav>
 }
