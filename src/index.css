@@ -45,6 +45,7 @@ img {
 }
 
 button {
+  border: none;
   cursor: pointer;
 }
 
@@ -70,6 +71,13 @@ button {
   font-style: normal;
   line-height: 32px;
   letter-spacing: 0em;
+  color: #000000;
+}
+
+.text-thin {
+  font-family: "Poppins200";
+  font-size: 16px;
+  line-height: 30px;
   color: #000000;
 }
 .text-small {
