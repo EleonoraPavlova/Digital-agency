@@ -27,7 +27,6 @@ const items = [
     },
     {
         title: '3D Modelings',
-        classes: "advantage__item-last",
         imageName: "advan-modelin"
     },
 ]

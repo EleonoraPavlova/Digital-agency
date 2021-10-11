@@ -65,6 +65,13 @@ button {
   justify-content: center;
 }
 
+.text-thin {
+  font-family: "Poppins200";
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
 .text-normal {
   font-family: "Poppins500";
   font-size: 16px;
@@ -74,12 +81,13 @@ button {
   color: #000000;
 }
 
-.text-thin {
-  font-family: "Poppins200";
-  font-size: 16px;
-  line-height: 30px;
-  color: #000000;
+.text-middle {
+  font-family: "Poppins500";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
 }
+
 .text-small {
   font-family: "Poppins500";
   font-size: 12px;
@@ -94,6 +102,15 @@ button {
   font-size: 25px;
   font-style: normal;
   line-height: 47px;
+  letter-spacing: 0em;
+}
+
+.text-subtitle {
+  font-family: "Poppins600";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
   letter-spacing: 0em;
 }
 

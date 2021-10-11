@@ -1,1 +1,33 @@
 @import "../../../variables.scss";
+
+.product {
+    padding-bottom: 100px;
+    background-color: $color-gray;
+    &__title {
+        padding: 65px 135px;
+    }
+    &__text {
+        padding-bottom: 65px;
+    }
+    &__label-red {
+        background-color: rgba(220, 0, 0, 0.1);
+    }
+    &__label-green {
+        background-color: rgba(12, 190, 100, 0.15);
+    }
+    &__label-purple {
+        background-color: rgba(176, 0, 220, 0.11);
+    }
+    &__label-blue {
+        background-color: rgba(0, 88, 220, 0.09);
+    }
+    &__label-pink {
+        background-color: rgba(252, 63, 116, 0.5);
+    }
+    &__label-coral {
+        background-color: rgba(126, 247, 233, 0.7);
+    }
+    &__label-dblue {
+        background-color: rgba(8, 59, 240, 0.4);
+    }
+}
