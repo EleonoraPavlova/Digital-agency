@@ -1,0 +1,25 @@
+.advantage {
+    &__title {
+        padding-bottom: 24px;
+    }
+    &__description {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        padding-bottom: 24px;
+        margin-bottom: 100px;
+    }
+    &__compon {
+        text-align: center;
+        grid-column: 2 /3;
+    }
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 50px;
+        row-gap: 70px;
+        padding-bottom: 133px;
+    }
+    &__item {
+        grid-column: 2 / 3;
+    }
+}

@@ -1,0 +1,29 @@
+@import "../../../variables.scss";
+
+.productBlock {
+    &__wrapper {
+        padding: 30px;
+        background: $color-white;
+        box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        width: 378px;
+        height: 348px;
+    }
+    &__button {
+        background-color: $color-white;
+        &-text {
+            color: $base-color;
+        }
+    }
+    &__title {
+        padding-bottom: 13px;
+    }
+    &__sketch {
+        padding-bottom: 23px;
+    }
+    &__arrow {
+        margin-left: 12px;
+        width: 14px;
+        height: 12px;
+    }
+}
