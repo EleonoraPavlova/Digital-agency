@@ -5,4 +5,46 @@
     border-radius: 8px;
     padding: 7px 0 6px 10px;
     width: 140px;
+    &.red {
+        background-color: rgba(220, 0, 0, 0.1);
+        .label__text {
+            color: rgb(220, 0, 0);
+        }
+    }
+    &.green {
+        background-color: rgba(12, 190, 100, 0.15);
+        .label__text {
+            color: rgb(12, 190, 100);
+        }
+    }
+    &.purple {
+        background-color: rgba(176, 0, 220, 0.11);
+        .label__text {
+            color: rgb(176, 0, 220);
+        }
+    }
+    &.blue {
+        background-color: rgba(0, 88, 220, 0.09);
+        .label__text {
+            color: rgb(0, 88, 220);
+        }
+    }
+    &.pink {
+        background-color: rgba(252, 63, 116, 0.5);
+        .label__text {
+            color: rgb(252, 63, 116);
+        }
+    }
+    &.coral {
+        background-color: rgba(126, 247, 233, 0.2);
+        .label__text {
+            color: rgb(126, 247, 234);
+        }
+    }
+    &.dblue {
+        background-color: rgba(8, 59, 240, 0.4);
+        .label__text {
+            color: rgb(8, 59, 240);
+        }
+    }
 }
