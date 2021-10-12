@@ -3,6 +3,7 @@ import Banner from "../../components/home/Banner";
 import About from "../../components/home/About";
 import Advantage from "../../components/home/Advantage";
 import Product from "../../components/home/Product";
+import LastWorks from "../../components/home/LastWorks";
 
 export default function Home() {
   return <div>
@@ -10,5 +11,6 @@ export default function Home() {
     <About />
     <Advantage />
     <Product />
+    <LastWorks />
   </div>
 }
