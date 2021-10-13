@@ -1,8 +1,68 @@
 @import "../../../variables.scss";
 
 .works {
-    padding: 140px 20px 90px 0;
+    padding: 140px 0 160px 0;
     &__title {
         text-align: center;
+        padding-bottom: 18px;
+    }
+    &__subtitle {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        text-align: center;
+        padding-bottom: 70px;
+        &-center {
+            grid-column: 2 / 3;
+        }
+    }
+    &__box1 {
+        display: flex;
+        margin-bottom: 33px;
+        &_item1 {
+            flex: 1;
+            background-image: url("./works.svg");
+        }
+        &_item2 {
+            flex: 1;
+            background-image: url("./works-table.svg");
+        }
+        &_item3 {
+            flex: 1;
+            background-image: url("./works-girl.svg");
+        }
+    }
+    &__box2 {
+        display: flex;
+        &_small {
+            flex: 1;
+            background-image: url("./works-women.svg");
+        }
+        &_office {
+            flex: 2;
+            background-image: url("./works-office.svg");
+        }
+        &_big {
+            flex: 3;
+            background-image: url("./works-talk.svg");
+        }
+    }
+    &__item {
+        border-radius: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 223px;
+        margin-right: 27px;
+        overflow: hidden;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+        &:hover {
+            -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+        }
+        &:last-child {
+            margin-right: 0;
+        }
     }
 }

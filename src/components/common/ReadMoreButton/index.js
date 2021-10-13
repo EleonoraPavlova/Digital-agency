@@ -1,7 +1,7 @@
 import './index.scss';
 
 export default function ReadMoreButton(props) {
-  return <span className="read-more-button">
+  return <button><span className="read-more-button text-regular">
     Read more
-  </span>;
+  </span></button>;
 }
