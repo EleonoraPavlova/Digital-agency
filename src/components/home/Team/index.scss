@@ -1,0 +1,17 @@
+@import "../../../variables.scss";
+
+.team {
+    padding-bottom: 125px;
+    display: grid;
+    grid-template-columns: 45% 40%;
+    column-gap: 67px;
+    &__title {
+        padding-bottom: 43px;
+    }
+    &__text {
+        padding-bottom: 25px;
+    }
+    &__text2 {
+        padding-bottom: 45px;
+    }
+}
