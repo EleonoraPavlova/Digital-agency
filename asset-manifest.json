@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/EleonoraPavlovaDigital-agency/static/css/main.67d89a3d.chunk.css",
-    "main.js": "/EleonoraPavlovaDigital-agency/static/js/main.e6329b52.chunk.js",
-    "main.js.map": "/EleonoraPavlovaDigital-agency/static/js/main.e6329b52.chunk.js.map",
+    "main.css": "/EleonoraPavlovaDigital-agency/static/css/main.1976912a.chunk.css",
+    "main.js": "/EleonoraPavlovaDigital-agency/static/js/main.ba3391f9.chunk.js",
+    "main.js.map": "/EleonoraPavlovaDigital-agency/static/js/main.ba3391f9.chunk.js.map",
     "runtime-main.js": "/EleonoraPavlovaDigital-agency/static/js/runtime-main.d81d4eab.js",
     "runtime-main.js.map": "/EleonoraPavlovaDigital-agency/static/js/runtime-main.d81d4eab.js.map",
     "static/js/2.7bbbcb09.chunk.js": "/EleonoraPavlovaDigital-agency/static/js/2.7bbbcb09.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.ae454966.chunk.js": "/EleonoraPavlovaDigital-agency/static/js/3.ae454966.chunk.js",
     "static/js/3.ae454966.chunk.js.map": "/EleonoraPavlovaDigital-agency/static/js/3.ae454966.chunk.js.map",
     "index.html": "/EleonoraPavlovaDigital-agency/index.html",
-    "static/css/main.67d89a3d.chunk.css.map": "/EleonoraPavlovaDigital-agency/static/css/main.67d89a3d.chunk.css.map",
+    "static/css/main.1976912a.chunk.css.map": "/EleonoraPavlovaDigital-agency/static/css/main.1976912a.chunk.css.map",
     "static/js/2.7bbbcb09.chunk.js.LICENSE.txt": "/EleonoraPavlovaDigital-agency/static/js/2.7bbbcb09.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/EleonoraPavlovaDigital-agency/static/media/works.56c6ab7b.svg",
     "static/media/facebook.45d115f0.svg": "/EleonoraPavlovaDigital-agency/static/media/facebook.45d115f0.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.d81d4eab.js",
     "static/js/2.7bbbcb09.chunk.js",
-    "static/css/main.67d89a3d.chunk.css",
-    "static/js/main.e6329b52.chunk.js"
+    "static/css/main.1976912a.chunk.css",
+    "static/js/main.ba3391f9.chunk.js"
   ]
 }
