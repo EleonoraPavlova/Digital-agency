@@ -1,0 +1,13 @@
+@import "../../../variables.scss";
+
+.subscribe {
+    padding-bottom: 140px;
+    &__title {
+        padding-bottom: 32px;
+    }
+    &__text {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        padding-bottom: 70px;
+    }
+}

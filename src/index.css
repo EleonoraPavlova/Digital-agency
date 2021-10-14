@@ -65,6 +65,12 @@ button {
   justify-content: center;
 }
 
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .text-thin {
   font-family: "Poppins200";
   font-size: 16px;
