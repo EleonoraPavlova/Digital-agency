@@ -5,6 +5,7 @@ import Advantage from "../../components/home/Advantage";
 import Product from "../../components/home/Product";
 import LastWorks from "../../components/home/LastWorks";
 import Team from "../../components/home/Team";
+import Subscribe from "../../components/home/Subscribe";
 
 export default function Home() {
   return <div>
@@ -14,5 +15,6 @@ export default function Home() {
     <Product />
     <LastWorks />
     <Team />
+    <Subscribe />
   </div>
 }
