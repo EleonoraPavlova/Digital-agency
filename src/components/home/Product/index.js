@@ -7,8 +7,8 @@ const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3
+    slidesToShow: 4,
+    slidesToScroll: 4
 };
 
 export default function Product() {
@@ -19,7 +19,7 @@ export default function Product() {
         <div className="product__text wrapper">
             <p className="text-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
         </div>
-        <div>
+        <div className="product__slider">
             <Slider {...settings}>
                 <ProductBlock title="Title" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" color="red" label="Vestibulum posuere" />
                 <ProductBlock title="Title One" description="Vivamus tincidunt porta venenatis. Quisque finibus sodales turpis sit amet posuere. Ut accumsan nisl nisl, sit amet ultricies turpis feugiat auctor. Nulla volutpat sodales pharetra." color="green" label="Sed quam nisl" />
