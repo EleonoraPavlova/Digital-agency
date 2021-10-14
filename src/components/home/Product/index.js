@@ -3,15 +3,15 @@ import Titleh4 from "../../common/Titleh4";
 import ProductBlock from "../../common/ProductBlock";
 import Slider from "react-slick";
 
-const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4
-};
 
 export default function Product() {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      };
     return <div className="product">
         <div className="product__title">
             <Titleh4 />

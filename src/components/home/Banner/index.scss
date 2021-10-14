@@ -1,35 +1,56 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .banner {
-    background-image: url("../../../images/bg-banner.svg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    padding: 0 0 135px 135px;
-    background-size: 100% auto;
-    margin-bottom: 83px;
-    &__box {
-        display: grid;
-        grid-template-columns: 42% 58%;
-        margin-top: -115px;
+  background-image: url("../../../images/bg-banner.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 0 0 135px 135px;
+  background-size: 100% auto;
+  margin-bottom: 83px;
+
+  @include for-phone-only {
+    padding: 108px 50px;
+  }
+  &__box {
+    display: grid;
+    grid-template-columns: 42% 58%;
+    margin-top: -115px;
+    @include for-phone-only {
+      display: block;
+      margin-top: 0;
     }
-    &__title {
-        padding-bottom: 20px;
-        font-family: $fons-title;
-        font-size: 20px;
-        font-style: normal;
-        line-height: 31px;
-        color: $base-color;
-        &-big {
-            color: $color-black;
-            font-size: 50px;
-            letter-spacing: 0em;
-            padding-bottom: 26px;
+  }
+  &__title {
+    padding-bottom: 20px;
+    font-family: $fons-title;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 31px;
+    color: $base-color;
+    @include for-phone-only {
+      font-size: 16px;
+    }
+    &-big {
+      color: $color-black;
+      font-size: 50px;
+      letter-spacing: 0em;
+      padding-bottom: 26px;
+      h1 {
+        @include for-phone-only {
+          font-size: 34px;
         }
+      }
     }
-    &__description {
-        padding-bottom: 50px;
+  }
+  &__description {
+    padding-bottom: 50px;
+  }
+  &__right {
+    padding-right: 115px;
+    @include for-phone-only {
+      padding: 0;
+      display: none;
     }
-    &__right {
-        padding-right: 115px;
-    }
+  }
 }

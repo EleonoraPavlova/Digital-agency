@@ -1,11 +1,13 @@
 import TopBar from "../TopBar";
 import Navigation from "../Navigation";
-
+import './index.scss'
 
 export default function Header() {
   return (
     <div>
-      <TopBar />
+      <div className="topbar-wrapper">
+        <TopBar />
+      </div>
       <Navigation />
     </div>
   )

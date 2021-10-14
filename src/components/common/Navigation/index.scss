@@ -1,4 +1,7 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+
 
 .navigation {
   width: 100%;
@@ -9,10 +12,39 @@
   align-items: center;
   padding: 0 70px;
 
+  @include for-phone-only {
+    padding: 0 23px;
+  }
+
+  .navigation-button {
+    display: none;
+    background-color: none;
+    @include for-phone-only {
+      display: block;
+    }
+  }
+
   .links {
     list-style: none;
     display: flex;
     align-items: center;
+    @include for-phone-only {
+      display: none;
+      &.visible {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #fff;
+        width: 95%;
+        top: 75px;
+        left: 2.5%;
+        border: 1px solid black;
+        .nav-link {
+          color: black;
+          margin-right: 0px;
+        }
+      }
+    }
 
     .nav-link {
       margin-right: 70px;
