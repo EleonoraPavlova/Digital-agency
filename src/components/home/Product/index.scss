@@ -9,4 +9,9 @@
     &__text {
         padding-bottom: 65px;
     }
+    &__slider {
+        margin: 0 50px;
+        background-color: $color-white;
+        border-radius: 8px;
+    }
 }
