@@ -1,4 +1,9 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
+
 .copyright {
     background-color: $color-dark;
+    font-family: $fonts-regular;
+    font-size: 12px;
+    line-height: 23px;
 }
