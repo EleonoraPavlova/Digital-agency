@@ -10,7 +10,8 @@
   margin-bottom: 83px;
 
   @include for-phone-only {
-    padding: 108px 50px;
+    padding: 58px 50px;
+    margin-bottom: 33px;
   }
   &__box {
     display: grid;

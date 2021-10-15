@@ -1,0 +1,11 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.description {
+    @include for-phone-only {
+        font-family: $fonts-regular;
+        font-size: 12px;
+        font-style: normal;
+        line-height: 23px;
+    }
+}

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import Logo from "../Logo";
 import './index.scss';
 import { ReactComponent as Menu } from './menu.svg';
-import { ReactComponent as Close } from './../Icon/icons/insta.svg';
+import { ReactComponent as Close } from './close.svg';
 
 
 export default function Navigation() {
@@ -15,20 +15,19 @@ export default function Navigation() {
       <Logo />
     </div>
     <button className="navigation-button" onClick={() => setVisible(!visible)}>
-      { visible ? <Close /> : <Menu /> }
+      {visible ? <span className="navigation-button__close"><Close /></span> : <Menu />}
     </button>
     <ul className={`links ${visible ? 'visible' : null}`}>
-      <li>
+      <li className="navigation__item">
         <NavLink exact className="nav-link" to="/">Home</NavLink>
       </li>
-      <li>
+      <li className="navigation__item">
         <NavLink className="nav-link" to="/about">About us</NavLink>
       </li>
-      <li>
+      <li className="navigation__item">
         <NavLink className="nav-link" to="/services">Services</NavLink>
       </li>
-
-      <li>
+      <li className="navigation__item">
         <NavLink className="nav-link" to="/news">News</NavLink>
       </li>
       <li>
