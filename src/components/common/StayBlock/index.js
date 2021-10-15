@@ -1,7 +1,7 @@
 import './index.scss';
 
 export default function StayBlock() {
-    return <section className="stay flex-between">
+    return <section className="stay flex-between block">
         <div>
             <div className="stay__title">
                 <h4 className="text-title">Stay in the loop</h4>
