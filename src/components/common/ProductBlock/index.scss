@@ -1,13 +1,19 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .productBlock {
     &__wrapper {
         padding: 30px;
-        background: $color-white;
-        box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.05);
+        background-color: #ffffff;
         border-radius: 20px;
         width: 378px;
         height: 348px;
+        border: 1px solid $color-gray;
+        @include for-phone-only {
+            width: 299px;
+            height: 314px;
+            padding: 26px;
+        }
     }
     &__button {
         background-color: $color-white;
@@ -25,5 +31,12 @@
         margin-left: 12px;
         width: 14px;
         height: 12px;
+    }
+}
+.text-thin {
+    @include for-phone-only {
+        font-family: $fonts-regular;
+        font-size: 12px;
+        line-height: 23px;
     }
 }

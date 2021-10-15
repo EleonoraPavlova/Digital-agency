@@ -17,7 +17,7 @@ export default function Team() {
             <div className="team__text2">
                 <p className="text-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             </div>
-            <div>
+            <div className="team__button">
                 <ReadMoreButton />
             </div>
         </div>

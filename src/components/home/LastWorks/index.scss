@@ -1,7 +1,12 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .works {
     padding: 140px 0 160px 0;
+    @include for-phone-only {
+        padding: 60px 0 10px 36px;
+        margin-bottom: 100px;
+    }
     &__title {
         text-align: center;
         padding-bottom: 18px;
@@ -13,6 +18,16 @@
         padding-bottom: 70px;
         &-center {
             grid-column: 2 / 3;
+        }
+        @include for-phone-only {
+            display: block;
+            padding-bottom: 48px;
+        }
+    }
+    &__images {
+        @include for-phone-only {
+            overflow-y: scroll;
+            height: 400px;
         }
     }
     &__box1 {
@@ -30,6 +45,10 @@
             flex: 1;
             background-image: url("./works-girl.svg");
         }
+        @include for-phone-only {
+            display: block;
+            margin-bottom: 0;
+        }
     }
     &__box2 {
         display: flex;
@@ -44,6 +63,9 @@
         &_big {
             flex: 3;
             background-image: url("./works-talk.svg");
+        }
+        @include for-phone-only {
+            display: block;
         }
     }
     &__item {
@@ -63,6 +85,10 @@
         }
         &:last-child {
             margin-right: 0;
+        }
+        @include for-phone-only {
+            margin-right: 0;
+            margin-bottom: 15px;
         }
     }
 }
