@@ -1,12 +1,22 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .about {
     margin-bottom: 165px;
+    @include for-phone-only {
+        padding: 30px 0 101px 0;
+    }
     &__wrapper-link {
         padding-bottom: 15px;
+        @include for-phone-only {
+            display: none;
+        }
     }
     &__desctitle {
         padding-bottom: 49px;
+        @include for-phone-only {
+            padding: 0 0 42px 42px;
+        }
     }
     &__link {
         &:hover {
@@ -16,16 +26,26 @@
     &__box {
         &-title {
             padding-bottom: 10px;
+            @include for-phone-only {
+                display: none;
+            }
         }
         &-picture {
             display: grid;
             grid-template-columns: 64% 25%;
+            @include for-phone-only {
+                display: grid;
+                grid-template-columns: 80% 20%;
+            }
         }
     }
     &__description {
         display: grid;
         grid-template-columns: 40% 60%;
         padding-bottom: 46px;
+        @include for-phone-only {
+            display: none;
+        }
     }
     &__dots {
         width: 196px;
@@ -33,5 +53,21 @@
         margin-left: -87px;
         margin-top: -67px;
         z-index: -1;
+        @include for-phone-only {
+            width: 79px;
+            height: 62px;
+            margin-top: -21px;
+            margin-left: -48px;
+        }
+    }
+    &__img {
+        @include for-phone-only {
+            border-radius: 15px;
+        }
+    }
+}
+.wrapper {
+    @include for-phone-only {
+        margin: 0 40px 0 0;
     }
 }

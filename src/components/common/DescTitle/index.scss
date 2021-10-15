@@ -1,10 +1,23 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
 .desc {
     &__title {
         display: grid;
         grid-template-columns: 25% 50% 25%;
+        @include for-phone-only {
+            text-align: center;
+            display: block;
+        }
         &-center {
             text-align: center;
             grid-column: 2 /3;
+            @include for-phone-only {
+                font-family: $font-medium;
+                font-size: 16px;
+                line-height: 30px;
+                letter-spacing: 0em;
+            }
         }
     }
 }
