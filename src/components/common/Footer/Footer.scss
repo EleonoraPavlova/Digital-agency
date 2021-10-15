@@ -1,4 +1,5 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .footer {
   color: $color-white;
@@ -11,6 +12,9 @@
     grid-template-columns: 35% 15% 25% 25%;
     padding: 66px 120px 29px 101px;
     border-bottom: 1px solid $color-white;
+    @include for-phone-only {
+      display: none;
+    }
   }
   .logo-wrapper {
     margin-bottom: 20px;
@@ -22,5 +26,8 @@
     display: flex;
     justify-content: center;
     padding: 29px 0;
+    @include for-phone-only {
+      padding: 22px 54px;
+    }
   }
 }

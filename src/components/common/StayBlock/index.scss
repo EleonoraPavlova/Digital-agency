@@ -1,15 +1,25 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .stay {
     padding: 40px 50px;
     background-color: $color-shadowy;
     border-radius: 15px;
+    @include for-phone-only {
+        padding: 30px 21px;
+    }
     &__title {
         color: $color-white;
         padding-bottom: 10px;
+        @include for-phone-only {
+            padding-bottom: 25px;
+        }
     }
     &__text {
         color: $color-white;
+        @include for-phone-only {
+            padding-bottom: 43px;
+        }
     }
     &__form {
         width: 25%;
@@ -17,12 +27,22 @@
         border-radius: 8px;
         background-color: $color-white;
         padding: 0 6px 0 21px;
+        @include for-phone-only {
+            width: 96%;
+            height: 46px;
+            padding: 6px 4px 5px 10px;
+        }
         &-input {
             outline: none;
             border: none;
             font-family: $font-small;
             font-size: 13px;
             line-height: 20px;
+            @include for-phone-only {
+                font-size: 11px;
+                line-height: 16px;
+                padding-right: 30px;
+            }
         }
         &-button {
             color: $color-white;
@@ -30,6 +50,15 @@
             height: 37px;
             border-radius: 8px;
             background-color: $base-color;
+            @include for-phone-only {
+                width: 90px;
+                height: 35px;
+            }
         }
+    }
+}
+.flex-between {
+    @include for-phone-only {
+        display: block;
     }
 }
