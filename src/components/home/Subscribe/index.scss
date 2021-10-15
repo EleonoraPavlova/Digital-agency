@@ -1,13 +1,30 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .subscribe {
     padding-bottom: 140px;
+    @include for-phone-only {
+        padding-bottom: 69px;
+        margin-left: 35px;
+    }
     &__title {
         padding-bottom: 32px;
+        @include for-phone-only {
+            padding-bottom: 20px;
+        }
+        &__text {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            padding-bottom: 70px;
+            @include for-phone-only {
+                padding-bottom: 50px;
+            }
+        }
     }
-    &__text {
-        display: grid;
-        grid-template-columns: 40% 60%;
-        padding-bottom: 70px;
+}
+.text-title {
+    @include for-phone-only {
+        font-size: 20px;
+        line-height: 37px;
     }
 }

@@ -1,4 +1,5 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .read-more-button {
   background-color: $base-color;
@@ -8,4 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include for-phone-only {
+    width: 177px;
+  }
 }

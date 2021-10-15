@@ -1,17 +1,49 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .team {
     padding-bottom: 125px;
     display: grid;
     grid-template-columns: 45% 40%;
     column-gap: 67px;
+    @include for-phone-only {
+        grid-template-columns: 1fr;
+        grid-template-rows: 65% 35%;
+        padding-bottom: 49px;
+    }
+    &__picture {
+        @include for-phone-only {
+            grid-row: 2 / 3;
+            margin-left: 35px;
+        }
+    }
+    &__desc {
+        @include for-phone-only {
+            padding-left: 35px;
+        }
+    }
     &__title {
         padding-bottom: 43px;
+        @include for-phone-only {
+            padding-bottom: 34px;
+        }
     }
     &__text {
         padding-bottom: 25px;
     }
     &__text2 {
         padding-bottom: 45px;
+    }
+    &__button {
+        @include for-phone-only {
+            margin-bottom: 66px;
+        }
+    }
+}
+.text-subtitle {
+    @include for-phone-only {
+        font-family: $font-medium;
+        font-size: 22px;
+        line-height: 33px;
     }
 }

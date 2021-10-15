@@ -1,10 +1,15 @@
 @import "../../../variables.scss";
+@import "../../../mixins.scss";
 
 .label {
     margin-bottom: 8px;
     border-radius: 8px;
     padding: 7px 0 6px 10px;
     width: 140px;
+    @include for-phone-only {
+        width: 130px;
+        padding: 6px 5px 5px 10px;
+    }
     &.red {
         background-color: rgba(220, 0, 0, 0.1);
         .label__text {
