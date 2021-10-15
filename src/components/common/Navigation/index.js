@@ -8,7 +8,7 @@ import { ReactComponent as Close } from './close.svg';
 
 
 export default function Navigation() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
 
   return <nav className="navigation">
     <div className="logo">
