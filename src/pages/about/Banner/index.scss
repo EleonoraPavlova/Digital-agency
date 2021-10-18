@@ -1,0 +1,58 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.aboutSecondPage {
+    display: flex;
+    background-color: rgba(226, 122, 12, 0.12);
+    &__link {
+        position: relative;
+        padding-right: 40px;
+        &:hover {
+            color: $base-color;
+        }
+        &:first-child {
+            &::before {
+                content: "";
+                width: 6px;
+                height: 6px;
+                border-bottom: 1px solid $color-dark-gray;
+                border-right: 1px solid $color-dark-gray;
+                display: block;
+                transform: rotate(-45deg);
+                position: absolute;
+                top: 6px;
+                left: 60px;
+            }
+        }
+    }
+    &__left {
+        flex: 1;
+        padding: 110px;
+    }
+    &__nav {
+        padding-bottom: 40px;
+    }
+    &__title {
+        padding-bottom: 25px;
+    }
+    &__desc {
+        padding-bottom: 57px;
+    }
+    &__button {
+        width: 176px;
+        height: 48px;
+    }
+
+    &__image {
+        flex: 1;
+    }
+    &__click {
+        background-color: transparent;
+        width: 20px;
+        height: 20px;
+        &_left {
+            transform: rotate(-180deg);
+            margin-right: 30px;
+        }
+    }
+}

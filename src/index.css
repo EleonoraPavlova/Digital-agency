@@ -133,3 +133,14 @@ button {
   line-height: 56px;
   letter-spacing: 0em;
 }
+
+.text-title-big {
+  font-family: "Poppins700";
+  font-size: 30px;
+  line-height: 54px;
+  letter-spacing: 0em;
+}
+
+.gray {
+  color: #848484;
+}

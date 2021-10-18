@@ -1,0 +1,17 @@
+@import "../../../variables.scss";
+@import "../../../mixins.scss";
+
+.breadcrumbs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__item {
+        padding-right: 25px;
+    }
+    &__link {
+        background: none;
+        font-family: $fonts-regular;
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
