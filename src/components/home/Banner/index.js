@@ -18,7 +18,7 @@ export default function Banner() {
                     <p className="text-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                 </div>
                 <div className="banner__button">
-                    <ButtonGet children="Get more details" />
+                    <ButtonGet text="Get more details" />
                 </div>
             </div>
             <div className="banner__right">
