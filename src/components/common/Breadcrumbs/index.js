@@ -1,18 +1,16 @@
-// import './index.scss';
-// import React from 'react';
-// import { NavLink } from "react-router-dom";
+import './index.scss';
+import React from 'react';
+import { NavLink } from "react-router-dom";
 
 
-// export default function Breadcrumbs(props) {
+export default function Breadcrumbs(props) {
 
-//     return (
-//         <nav className="flex-center">
-//             <div className="breadcrumbs">
-//                 {
-//                     props.routes.map(route => <NavLink to={route.path}>{route.name}</NavLink>)}
-//             </div >
-
-//         </nav >
-//     );
-
-// }
+    return (
+        <nav className="breadcrumbs__wrapper">
+            <div className="breadcrumbs">
+                <NavLink to="/" className="breadcrumbs__item"> Home </NavLink>
+                <span className="breadcrumbs__end">{props.activeRoute.name}</span>
+            </div >
+        </nav >
+    );
+}

@@ -2,16 +2,38 @@
 @import "../../../mixins.scss";
 
 .breadcrumbs {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    &__wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
     &__item {
+        position: relative;
         padding-right: 25px;
+        color: $color-dark-gray;
+        &:hover {
+            color: $color-shadowy;
+        }
+        &:before {
+            content: "";
+            display: block;
+            width: 7px;
+            height: 7px;
+            border-right: 1px solid $color-dark-gray;
+            border-bottom: 1px solid $color-dark-gray;
+            position: absolute;
+            top: 7px;
+            left: 50px;
+            transform: rotate(-45deg);
+        }
     }
     &__link {
         background: none;
         font-family: $fonts-regular;
         font-size: 12px;
         line-height: 25px;
+    }
+    &__end {
+        color: $base-color;
     }
 }
