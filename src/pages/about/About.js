@@ -1,3 +1,7 @@
+import Banner from "../../pages/about/Banner";
+
 export default function About() {
-  return <div>This is about us page</div>
+  return <div>
+    <Banner />
+  </div>
 }
