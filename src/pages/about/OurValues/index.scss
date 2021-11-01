@@ -1,2 +1,26 @@
 @import "../../../variables.scss";
 @import "../../../mixins.scss";
+
+.our-values {
+    .style {
+        display: block;
+        padding-right: 40px;
+        h3 {
+            text-align: left;
+        }
+    }
+    padding: 113px 135px 0 110px;
+    background-color: $color-gray;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 95px;
+    &__text {
+        padding-top: 17px;
+        &-link {
+            color: $base-color;
+            &:hover {
+                color: $color-dark;
+            }
+        }
+    }
+}
