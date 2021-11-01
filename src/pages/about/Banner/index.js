@@ -34,7 +34,7 @@ export default function AboutBanner(props) {
                 <p className="text-regular">Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla.Interdum consectetur libero id faucibus.Nibh praesent tristique magna sit amet purus.Eget nullam non nisi est sit amet facilisis.Netus et malesuada fames ac turpis egestas sed.In nisl nisi scelerisque eu.Arcu dictum varius duis at.</p>
             </div>
             <div className="aboutSecondPage__button">
-                <ButtonGet >Get in touch</ButtonGet>
+                <ButtonGet text="Get in touch" ></ButtonGet>
             </div>
         </div>
         <div className="aboutSecondPage__right">

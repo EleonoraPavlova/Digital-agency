@@ -1,2 +1,9 @@
 @import "../../../variables.scss";
 @import "../../../mixins.scss";
+
+.privilege {
+    padding-bottom: 147px;
+    &__title {
+        padding: 144px 0 63px 0;
+    }
+}
